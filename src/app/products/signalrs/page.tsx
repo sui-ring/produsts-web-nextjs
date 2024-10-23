@@ -36,7 +36,7 @@ const ProductSignalrs = () => {
 
                 <Row>
                     <Col style={{ textAlign: 'center', margin: '0 auto' }}>
-                        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/A1rQwFQ7yZw?si=Aa5idZQykmB1kypb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/A1rQwFQ7yZw?si=Aa5idZQykmB1kypb" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                     </Col>
                 </Row>
 
@@ -44,7 +44,7 @@ const ProductSignalrs = () => {
                     <Col>
                         <h1>Introducing Signalrs<small>Your Gateway to Automated Trading</small></h1>
                         <h2>Are you ready to take your trading to the next level?</h2>
-                        <p>Signalrs is the perfect tool for traders who want to automate their trading strategies without the need for complex programming skills. Whether you're a seasoned trader or just starting out, our user-friendly solution can help you achieve your financial goals.</p>
+                        <p>Signalrs is the perfect tool for traders who want to automate their trading strategies without the need for complex programming skills. Whether you are a seasoned trader or just starting out, our user-friendly solution can help you achieve your financial goals.</p>
                         <h3>What can Signalrs do for you?</h3>
                         <ul>
                             <li><strong>Automate your trading:</strong> Say goodbye to manual trades and hello to efficiency!</li>
@@ -54,13 +54,13 @@ const ProductSignalrs = () => {
                         </ul>
                         <h3>Key Benefits:</h3>
                         <ol>
-                            <li><strong>Time-saving:</strong> Let Signalrs monitor the markets 24/7, so you don't have to</li>
+                            <li><strong>Time-saving:</strong> Let Signalrs monitor the markets 24/7, so you do not have to</li>
                             <li><strong>Consistency:</strong> Remove emotional decision-making from your trading</li>
-                            <li><strong>Flexibility:</strong> Works with exchanges that don't support API trading</li>
+                            <li><strong>Flexibility:</strong> Works with exchanges that do not support API trading</li>
                             <li><strong>Easy to use:</strong> Simple setup process and intuitive controls</li>
                         </ol>
                         <h3>How It Works:</h3>
-                        <p>Signalrs analyzes data from your trading platforms, detects market opportunities based on your preferences, and executes trades automatically. It's like having a personal trading assistant working for you around the clock!</p>
+                        <p>Signalrs analyzes data from your trading platforms, detects market opportunities based on your preferences, and executes trades automatically. It is like having a personal trading assistant working for you around the clock!</p>
                         <h3>Who Can Benefit?</h3>
                         <ul>
                             <li>Day traders looking to automate their strategies</li>
@@ -76,7 +76,7 @@ const ProductSignalrs = () => {
                         </ul>
 
                         <h3>Get Started Today!</h3>
-                        <p>Don't let another trading opportunity slip away. With Signalrs, you can harness the power of automated trading without the complexity. Take control of your financial future and start maximizing your profits today!</p>
+                        <p>Do not let another trading opportunity slip away. With Signalrs, you can harness the power of automated trading without the complexity. Take control of your financial future and start maximizing your profits today!</p>
                         <p><strong>Ready to revolutionize your trading? We are ready to offer a free demo. If you would like to try trading, feel free to contact us!</strong></p>
 
                         <h3>Get Your Free Trial Now!</h3>

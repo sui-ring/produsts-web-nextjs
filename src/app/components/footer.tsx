@@ -41,17 +41,12 @@ const items: MenuItemType[] = [
 const NavibarFooter = () => {
     const [current, setCurrent] = useState("home");
 
-    const handleClick = (e: any) => {
-        console.log("click ", e);
-        setCurrent(e.key);
-    }
-
     return (
         <>
             <Menu
                 mode="horizontal"
-                onClick={handleClick}
                 defaultSelectedKeys={[current]}
+                onClick={(e) => setCurrent(e.key)}
                 items={items}
                 style={{ flex: 1, width: 980 }}
             />

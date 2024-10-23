@@ -3,7 +3,7 @@ import { Menu } from "antd";
 import Link from "next/link";
 import { useState } from "react";
 import { MenuItemType } from "antd/es/menu/interface";
-import { HomeOutlined, InfoCircleOutlined, ProductOutlined, MailOutlined, ReadOutlined } from "@ant-design/icons";
+import { HomeOutlined, InfoCircleOutlined, ProductOutlined, MailOutlined } from "@ant-design/icons";
 
 const items: MenuItemType[] = [
     {
@@ -40,16 +40,11 @@ const items: MenuItemType[] = [
 const Navibar = () => {
     const [current, setCurrent] = useState("home");
 
-    const handleClick = (e: any) => {
-        console.log("click ", e);
-        setCurrent(e.key);
-    }
-
     return (
         <>
             <Menu
                 mode="horizontal"
-                onClick={handleClick}
+                onClick={(e) => setCurrent(e.key)}
                 defaultSelectedKeys={[current]}
                 items={items}
                 style={{ flex: 1, width: 980 }}

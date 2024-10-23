@@ -1,4 +1,4 @@
-import { Button, Col, Flex, List, Row } from "antd";
+import { Button, Col, Flex, Row } from "antd";
 import { EMAIL } from "../const";
 import Link from "next/link";
 

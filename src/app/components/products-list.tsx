@@ -1,6 +1,5 @@
-import { Card, Flex, Typography } from 'antd';
+import { Card, Flex, Image } from 'antd';
 import Link from 'next/link';
-const { Title } = Typography;
 
 import { AppleFilled, FileTextFilled, LinuxOutlined, WindowsFilled, YoutubeFilled } from '@ant-design/icons';
 
@@ -27,12 +26,12 @@ const ProductsList = () => {
     return (
         <Flex gap="middle">
             {items.map((item) => (
-                <Link href={item.link}>
+                <Link key={item.key} href={item.link}>
                     <Card
                         key={item.key}
                         hoverable
                         style={{ width: 240 }}
-                        cover={<img alt={item.label} src={item.src} />}
+                        cover={<Image alt={item.label} src={item.src} />}
                     >
                         <strong>{item.label}</strong> <br />
                         {item.children.substring(0, 100)}... <br />

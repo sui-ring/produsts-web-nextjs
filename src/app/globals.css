@@ -19,9 +19,13 @@ body {
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Baskerville", "Baskerville Old Face", "Garamond", "Times New Roman",
+    Arial,
+    Meiryo,
+    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  line-height: 1.75;
 }
 
 * {
@@ -35,8 +39,31 @@ a {
   text-decoration: none;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
+ul {
+  padding-left: 1.5rem;
+}
+
+ol {
+  padding-left: 1.5rem;
+}
+
+small {
+  font-size: 0.8rem;
+  color: gray;
+  display: block;
+}
+
+.content {
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 1.5rem;
 }

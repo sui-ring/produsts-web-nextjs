@@ -1,36 +1,85 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# signalrs-web
 
-## Getting Started
+# Pagea
+- Home
+- Products
+    - Signalrs
+- About
+  - Privacy policy
+  - Payment Terms
+- Contanc
+  - telegram/
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. 利用規約（Terms of Service / Terms and Conditions）
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+サービスの内容: 提供するプログラムやサービスの概要を説明する。
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+使用許可: プログラムの使用に関する権利を明示する（例：個人使用、商用禁止など）。
 
-## Learn More
+禁止事項: プログラムの不正使用や逆アセンブルなどの禁止行為を列挙する。
 
-To learn more about Next.js, take a look at the following resources:
+ユーザーの責任: ユーザーがプログラムを使用する際の責任について説明する。
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+2. プライバシーポリシー（Privacy Policy）
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+個人情報の収集: どのような情報を収集し、どのような目的で使用するかを説明。
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+情報の共有: 収集したデータが第三者と共有される場合、その旨とその理由を明示する。
+
+データの保管: ユーザー情報の保管期間や安全管理について。
+
+
+3. 返品・返金ポリシー（Refund Policy）
+
+
+返金条件: どのような場合に返金が可能かを明記（不具合、満足できない場合など）。
+
+手続き: 返金を希望する場合の手続きや期限。
+
+
+4. 著作権・知的財産権（Copyright and Intellectual Property）
+
+
+著作権の帰属: プログラム、ドキュメント、ウェブサイトコンテンツに関する著作権の所有者を明記。
+
+商標の使用: 販売する製品やロゴに関する商標権の情報。
+
+
+5. 責任の制限（Limitation of Liability）
+
+
+責任の範囲: プログラムの使用による損害に関して、企業の責任を制限する条項を明記。
+
+免責事項: プログラムが特定の目的に合致しなかったり、エラーが含まれている場合の責任を明示。
+
+
+6. サポートとメンテナンス（Support and Maintenance）
+
+
+サポートの提供: ユーザーが技術的問題に直面した際のサポートの方法や対応時間を明示。
+
+メンテナンスポリシー: プログラムのアップデートやメンテナンスに関する情報。
+
+
+7. 契約の変更（Changes to Terms）
+
+
+変更権: 利用規約の変更があった場合、どのように通知するかを明記。
+
+同意の再確認: ユーザーが規約の変更に同意したかどうかの確認プロセス。
+
+
+8. 連絡先情報（Contact Information）
+
+
+問い合わせ先: 質問や問題に対する連絡先情報を提示（メールアドレス、電話番号など）。
+
+
+9. 適用法（Governing Law）
+
+
+法律の選択: この利用規約に適用される法律（国や地域）を定める

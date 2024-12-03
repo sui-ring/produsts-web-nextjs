@@ -36,7 +36,7 @@ const ProductSignalrs = () => {
 
                 <Row>
                     <Col style={{ textAlign: 'center', margin: '0 auto' }}>
-                        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/A1rQwFQ7yZw?si=Aa5idZQykmB1kypb" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+                        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/UvAwCDRahTQ?si=5iiUJc7hNQURGIlK" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                     </Col>
                 </Row>
 

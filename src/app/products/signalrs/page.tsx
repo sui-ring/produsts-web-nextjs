@@ -18,6 +18,7 @@ const ProductSignalrs = () => {
                     <div>
                         <h3 style={contentStyle}>
                             <Image
+                                preview={false}
                                 src="/images/test.jpg"
                                 alt="Signalrs"
                             />
@@ -35,8 +36,8 @@ const ProductSignalrs = () => {
                 </Carousel>
 
                 <Row>
-                    <Col style={{ textAlign: 'center', margin: '0 auto' }}>
-                        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/UvAwCDRahTQ?si=5iiUJc7hNQURGIlK" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+                    <Col style={{ textAlign: 'center', width: '100vw', height: '40vh', margin: '0 auto' }}>
+                        <iframe width="720" height="380" src="https://www.youtube.com/embed/UvAwCDRahTQ?si=5iiUJc7hNQURGIlK" title="HFT SIGNALRS for All Traders" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                     </Col>
                 </Row>
 

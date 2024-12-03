@@ -3,19 +3,16 @@
 import React, { useMemo, useState } from 'react';
 
 import { Button, Col, Flex, notification, Row, Space } from "antd";
-import type { NotificationArgsProps } from 'antd';
-
-type NotificationPlacement = NotificationArgsProps['placement'];
 
 const Context = React.createContext({ name: 'Default' });
 
 const Demo = () => {
     const [api, contextHolder] = notification.useNotification();
 
-    const [logger, setLogger] = useState<String[]>([]);
+    const [logger, setLogger] = useState<string[]>([]);
 
 
-    const openNotification = (side: String) => {
+    const openNotification = (side: string) => {
         if (side === "entry buy") {
             api.info({
                 message: `Notification: order to ${side}`,
